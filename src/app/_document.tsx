@@ -4,6 +4,7 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
+          {/*GLOBAL meta stuff only */}
           <link rel="preconnect" href="http://fonts.googleapis.com" />
           <link rel="preconnect" href="http://fonts.gstatic.com" />
         </Head>
