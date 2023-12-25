@@ -37,43 +37,50 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
+FF-type-app/
 
-your-amazing-app/ tests_/
-- ComponentA. test. js
-- ComponentB. test.js
-- ComponentC. test. js actions/
+tests\_/
+
+- ComponentA.test.js
+- ComponentB.test.js
+- ComponentC.test.js
+
+actions/
+
 - auth.ts
 - search. ts
-order.ts
+- order.ts
+
 app/
+
 - someroute/
-_ page. tsx
-api/
-_ apiroute/
-route.ts
-blog/
+  _ page.tsx
+  api/
+  _ apiroute/
+  route.ts
+  blog/
 - [dynamicroute]
-page. tsx
+  page. tsx
 - loading. tsx
-layout. tsx
-page.tsx
-not-found.tsx components/
-— ComponentA/
-_ index.tsx
-Buttons/
+  layout. tsx
+  page.tsx
+  not-found.tsx components/
+  — ComponentA/
+  \_ index.tsx
+  Buttons/
 - PrimaryButton/
 - index.tsx
-SecondaryButton/
-index. tsx
-containers/
-home-page/
-hero-section/
+  SecondaryButton/
+  index. tsx
+  containers/
+  home-page/
+  hero-section/
 - index. ts info-section/
 - index.tsx
-blog-page/
-• content-section
+  blog-page/
+  • content-section
 - index.tsx
-db/
+  db/
 - client. ts
 - hooks/
 - useSomeHook. tsx
@@ -81,17 +88,17 @@ db/
 - fonts.ts
 - utils.ts
 - public/
--— fonts
+  -— fonts
 - images
 - services/
-_ someHelperFunction. ts
+  \_ someHelperFunction. ts
 - store/
-— useLayoutStore.ts
+  — useLayoutStore.ts
 - useUserStore. ts
 - styles/
 - global.css
-— types/
--— User.ts
+  — types/
+  -— User.ts
 - Blog-ts
 - Product.ts
 - Service. ts
